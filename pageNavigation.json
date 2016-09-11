@@ -1,0 +1,36 @@
+[{
+	"language":"english",
+	"type": "navigation",
+	"rows":[[
+		"/|\\",
+		"\\|/",
+		"-->",
+		"<--",
+		"<<-",
+		"->>"		
+	],
+	[
+		"url",
+		"text",
+		"button",
+		"mail",
+		"links"
+	],
+	[
+		"checkbox",
+		"list",
+		"date",
+		"radio",
+		"links"
+	],
+	[
+		"enter",
+		"submit",
+		"search",
+		"tab"
+	],
+	[
+		"pbck",
+		"bck"
+	]
+]}]

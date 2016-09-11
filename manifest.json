@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+
+  "name": "ClickAnType",
+  "description": "This extension lets people with certain disabities the ability to spell words only by clicking",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "css": ["style.css"],
+      "js": ["jquery.js", "english.json", "angular.js", "typeAnClick.js"],
+      "html": [ "toolbar.html" ],
+      "run_at": "document_end",
+      "all_frames": false
+
+    }
+  ],
+  "web_accessible_resources": [
+    "toolbar.html",
+    "style.css",
+    "english.json",
+    "speciChara.json",
+    "pageNavigation.json",
+    "numbers.json"
+  ],
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}

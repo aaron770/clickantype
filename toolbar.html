@@ -1,0 +1,8 @@
+<div>
+
+<ul class="row_of_button" ng-repeat="letter in language[0].rows track by $index" ng-init="rowIndex = $index"> <!-- {{rowIndex}} -->
+    <button type="button" ng-class="{true:'key-selected', false:'key-reg'}[ isRowSelected( rowIndex ) ||  isColumnRowSelected( rowIndex,  columnIndex) ]" ng-repeat="single in letter track by $index" ng-init="columnIndex = $index"> 
+         <!-- {{columnIndex}} -->{{single}}
+    </button>
+</ul>
+</div>

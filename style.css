@@ -1,0 +1,102 @@
+#type_An_Click_For_Speacial_Needs {
+}
+body {
+	
+}
+#theSearchSpace {
+	position: fixed;
+	bottom: 200px;
+	right: 0;
+	pointer-events: auto;
+}
+#theKeybordSpace {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	height: 200px;
+	width: 290px;/* 212px is size but bug so */
+	line-height: 1;
+	padding: 0;
+margin: 0;
+display: inline-block;
+	color: white;
+	pointer-events: none;
+    background:none !important;
+    z-index: 1000;
+}
+.row_of_button{
+	position: relative;
+	width 100%
+border: 0;
+    margin: 0;
+    line-height: 1;
+    white-space: nowrap;
+    pointer-events: none;
+    background:none !important; 
+}
+.btn {
+
+}
+.key-reg {
+	
+line-height: 1; 
+padding-left: 0px;
+font-size: 13.5px;
+	color: #d9534f;
+	background-color: grey;
+   /* color: #fff;
+   background-color: #0275d8;
+    border-color: #0275d8;*/
+       position: relative;
+        font-family: Verdana,sans-serif;
+    padding: .61538462em 1em;
+    vertical-align: middle;
+    min-height: 2.46153846em;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: inherit;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    text-transform: none;
+    outline: none;
+    touch-action: none;
+    transition: all .1s ease-in;
+    box-shadow: none;
+    pointer-events: none;
+    background:none !important;
+}
+.key-selected {
+	 font-size: 13.5px;
+	     font-family: Verdana,sans-serif;   
+    position: relative;
+    padding: .61538462em 1em;
+    vertical-align: middle;
+    min-height: 2.46153846em;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: inherit;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    background-color: #d9534f;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    cursor: none;
+    outline: none;
+    text-transform: none;
+    touch-action: none;
+    transition: all .1s ease-in;
+    pointer-events: none;
+
+	height: 18%;
+    color: #fff;
+    background-color: #d9534f !important;
+    border-color: #d9534f;
+    box-shadow: none;
+        cursor: none;
+
+}
